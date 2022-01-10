@@ -99,7 +99,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: yelee
+theme: butterfly
+#theme: yelee
 #theme: next
 
 # Deployment
