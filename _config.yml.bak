@@ -99,7 +99,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: shoka
+theme: butterfly
 #theme: yelee
 #theme: next
 
@@ -114,6 +114,7 @@ search:
   path: search.xml
   field: post
   content: true
+  template: ./search.xml
 
 jsonContent:
   meta: false

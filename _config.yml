@@ -114,6 +114,7 @@ search:
   path: search.xml
   field: post
   content: true
+  template: ./search.xml
 
 jsonContent:
   meta: false
@@ -133,3 +134,10 @@ jsonContent:
     excerpt: false
     categories: false
     tags: true
+    
+markdown:
+  plugins:
+    - plugin:
+      name: '@neilsustc/markdown-it-katex'
+      options:
+        strict: false
